@@ -1392,7 +1392,7 @@ _G.fastsp(function()
 		for v169 = 1, p109:len() do
 			v168 = v168 .. string.char(p109:sub(v169, v169):byte() - p110);
 		end;
-		return local v170;
+		return v170;
 	end;
 	local l__stats__171 = game.ReplicatedStorage.Events.stats;
 	local function u50(p111)
