@@ -1,3 +1,4 @@
+print("Starting up...")
 script.Name = "ClientMain"
 local ClientPlayer = game.Players.LocalPlayer
 local ClientMain = ClientPlayer.PlayerScripts.ClientMain
@@ -8,8 +9,6 @@ for i, v in pairs(ClientMain:GetChildren()) do
    v.Parent = script
 end
 ClientMain:Destroy()
-
-print("Starting up...")
 
 _G.hitbox = require(game.ReplicatedStorage.Modules.Hitbox);
 _G.check = require(game.ReplicatedStorage.Modules.HumanoidChecks);
