@@ -1,4 +1,3 @@
-script.Disabled = true
 script.Name = "ClientMain"
 local ClientPlayer = game.Players.LocalPlayer
 local ClientMain = ClientPlayer.PlayerScripts.ClientMain
@@ -1446,5 +1445,4 @@ if game.ReplicatedStorage:FindFirstChild("tradingHUB") ~= nil then
 	warn("cleard effect modules");
 end;
 warn("took " .. tick() - v180 .. " to preload");
-script.Disabled = false
 print("Started!")
