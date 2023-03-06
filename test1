@@ -1,4 +1,16 @@
--- Decompiled with the Synapse X Luau decompiler.
+script.Disabled = true
+script.Name = "ClientMain"
+local ClientPlayer = game.Players.LocalPlayer
+local ClientMain = ClientPlayer.PlayerScripts.ClientMain
+
+script.Parent = ClientPlayer.PlayerScripts
+
+for i, v in pairs(ClientMain:GetChildren()) do 
+   v.Parent = script
+end
+ClientMain:Destroy()
+
+print("Starting up...")
 
 _G.hitbox = require(game.ReplicatedStorage.Modules.Hitbox);
 _G.check = require(game.ReplicatedStorage.Modules.HumanoidChecks);
@@ -1434,3 +1446,4 @@ if game.ReplicatedStorage:FindFirstChild("tradingHUB") ~= nil then
 	warn("cleard effect modules");
 end;
 warn("took " .. tick() - v180 .. " to preload");
+print("Started!")
