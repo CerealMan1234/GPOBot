@@ -1403,7 +1403,7 @@ _G.fastsp(function()
 		for v175 = 1, v174:len() do
 			v172 = v172 - v174:sub(v175, v175);
 		end;
-		local v176 = tostring(local v177);
+		local v176 = tostring(v177);
 		local v178 = 0;
 		for v179 = 1, v176:len() do
 			if v176:sub(v179, v179) ~= "-" then
