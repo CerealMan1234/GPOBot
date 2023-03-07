@@ -1,6 +1,6 @@
 -- Decompiled with the Synapse X Luau decompiler.
 
-print("Test")
+print("Test1")
 
 local u1 = false;
 local u2 = true;
