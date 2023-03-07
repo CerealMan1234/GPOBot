@@ -1,2 +1,1 @@
-print("Test1", "Hello world!")
-script.Parent = game.Players.LocalPlayer.PlayerScripts
+print("Test")
